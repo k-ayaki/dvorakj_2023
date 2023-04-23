@@ -41,7 +41,6 @@ Pf_Count()
 	{
 		return A_Tickcount
 	}
-	return A_Tickcount
 	Ticks1 := 0
 	If !DllCall("QueryPerformanceCounter","Int64*",Ticks1) ;obtain the performance counter value
 	{
