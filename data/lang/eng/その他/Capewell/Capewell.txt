@@ -1,0 +1,21 @@
+“¯Žž‚É‘ÅŒ®‚·‚é”z—ñ
+
+/*
+ * Projects / Alternative Keyboard Layouts | Michael Capewell | smozoma
+ * http://michaelcapewell.com/projects/keyboard/index.htm#The_Coming_Capewell_Layout_
+ */
+
+[
+1|2|3|4|5|6|7|8|9|0|-|=|\|
+.|y|m|d|f|j|p|l|u|q|[|]|
+a|e|r|s|g|b|t|n|i|o|/|`|
+x|z|c|v|;|k|w|h|,|'|\|
+]
+
+-shift[
+{!}|@ |{#}|$ |% |{^}|{&}|* |( |) |_  |{+}|@@@|
+>  |Y |M  |D |F |J  |P  |L |U |Q |{{}|{}}|
+A  |E |R  |S |G |B  |T  |N |I |O |?  |~  |
+X  |Z |C  |V |: |K  |W  |H |< |" |@@@|
+]
+

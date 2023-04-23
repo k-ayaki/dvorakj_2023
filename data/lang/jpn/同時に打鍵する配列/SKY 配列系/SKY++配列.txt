@@ -1,0 +1,22 @@
+同時に打鍵する配列
+
+/*
+ * よろしければ配列について教えろ
+ * http://pc3.2ch.net/pc/kako/1011/10114/1011422119.html#384
+ *
+ * 上記のスレッドのレス 384
+ */
+
+[
+
+、|w|r|m|h|uu|ai|ou|。|ei|
+n |t|s|k|y|u |a |o |i |e |ー|
+p |d|z|g|b|un|an|on|in|en|
+]
+
+-shift[
+
+v |ww|rr|mm|hh|yuu|yai|you|ん |yei|
+f |tt|ss|kk|x |yu |ya |yo |yi |ye |っ|
+pp|dd|zz|gg|bb|yun|yan|yon|yin|yen|
+]

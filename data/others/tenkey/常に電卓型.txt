@@ -1,0 +1,24 @@
+/* -*- mode: text; coding:utf-8-dos; mode: dvorakj -*- */
+/*
+ * last updated: 2012-01-18 00:16:09
+ */
+/*
+ * キーリスト (AutoHotkeyJp)
+ * http://sites.google.com/site/autohotkeyjp/reference/KeyList
+ */
+
+/*
+ * SUNDSTRAND - Google Patent Search
+ * http://www.google.com/patents/about?id=xs1SAAAAEBAJ&dq=1198487
+ */
+
+-NumLock, [
+|             | {NumpadDiv} | {NumpadMult}  |
+| {NumpadSub} | {NumpadAdd} | {NumpadEnter} |
+|-------------+-------------+---------------|
+| {Numpad7}   | {Numpad8}   | {Numpad9}     |
+| {Numpad4}   | {Numpad5}   | {Numpad6}     |
+| {Numpad1}   | {Numpad2}   | {Numpad3}     |
+|-------------+-------------+---------------|
+| {Numpad0}   |             | {NumpadDot}   |
+]

@@ -1,0 +1,10 @@
+、	+{vkBCsc033}
+。	+{vkBEsc034}
+・	+{vkBFsc035}
+「	+{vkDBsc01B}
+」	+{vkDDsc02B}
+
+゛	{vkC0sc01A}
+゜	{vkDBsc01B}
+ー	{vkDCsc07D}
+

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DvorakJ README</title>
+<meta  charset="utf-8">
+<meta  name="generator" content="Org-mode">
+<link rel="stylesheet" type="text/css" href="./bootstrap3/css/bootstrap.min.css">
+<script type="text/javascript" src="./js/jquery-latest.min.js"></script>
+<script type="text/javascript" src="./bootstrap3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/dvorakj-doc.js"></script>
+<script type="text/javascript" src="./js/generate_TOC.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">DvorakJ README</h1>
+<p>
+current_version=2014-06-07
+</p>
+
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">ソフトウェアの概要</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+　DvorakJ はキーボード配列を変更するフリーウェアです。
+レジストリのキーマップや IME のローマ字かな変換表を編集せずにキーボード配列を変更します。
+文字キーにくわえてテンキーやファンクションキーの機能も変更できます。
+USB メモリでこのソフトウェアを持ち運べば好みのキーボード配列の設定をどこでも使用することが可能です。
+</p>
+
+<p>
+　DvorakJ では直接入力用と日本語入力用のキーボード配列を個別に設定します。
+直接入力用配列についてはいわゆる英語配列<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>やDvorak 配列<sup><a id="fnr.2" name="fnr.2" class="footref" href="#fn.2">2</a></sup>を使用できます。
+日本語入力用配列は、<a href="http://hp.vector.co.jp/authors/VA002116/azik/azikindx.htm">AZIK</a> のようにキーを順に打鍵する配列と、<a href="http://nicola.sunicom.co.jp/info2.html">NICOLA 配列</a>や<a href="http://kouy.exblog.jp/13627994/">新下駄配列</a> のようにキーを同時に打鍵する配列を使用できます。
+さらに、直接入力と日本語入力の両方ともテキスト形式の設定ファイルを編集することで、利用者が独自に作成したキーボード配列を使用できます。
+</p>
+
+
+<p>
+　DvorakJ はキーボード配列を変更するソフトウェアにとどまらず、各種入力をより容易にするソフトウェアでもあります。
+ここでは DvorakJ に実装している機能を三つ紹介します。
+</p>
+<ol class="org-ol">
+<li>[Space] を押しながら [文字] を押すと [Shift] と [文字] を押したことにする、いわゆる <a href="http://hp.vector.co.jp/authors/VA002116/sands/">SandS (Space and Shift)</a> 機能
+</li>
+<li>マウスカーソルをくるくる回すとスクロールする機能
+</li>
+<li>定型文を出力したりカーソルを動かす、独自のショートカット機能
+</li>
+</ol>
+
+<p>
+　ただし、DvorakJ は [Caps Lock] や [ひらがな] を [Ctrl] として動作させられません。
+OS の仕様上レジストリやドライバを変更しない限り、そのようには動作を変更できないのです<sup><a id="fnr.3" name="fnr.3" class="footref" href="#fn.3">3</a></sup>。
+もっとも、これらのキーを [Back Space] へと変更したり直接入力に切り替えるキーにすることならできます。
+</p>
+
+<p>
+　DvorakJ のソースコードは NYSL の条件で公開しています。
+</p>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">ソフトウェアを公開しているウェブページ</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+以下のウェブページで最新版と過去の版を公開しています
+</p>
+
+<ul class="org-ul">
+<li><a href="http://blechmusik.xii.jp/dvorakj/">DvorakJ: a portable freeware remapping your keyboard layout</a>
+</li>
+</ul>
+
+<p>
+Vector でもソフトウェアを公開しています（ただし最新版ではない可能性があります）
+</p>
+
+<ul class="org-ul">
+<li><a href="http://www.vector.co.jp/soft/dl/winnt/util/se480857.html">Vector：DvorakJ (WindowsNT/2000/XP/Vista / ユーティリティ) - ソフトのダウンロード</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">動作を確認している OS</h2>
+<div class="outline-text-2" id="text-3">
+<table>
+
+
+<colgroup>
+<col  class="left">
+
+<col  class="left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">OS</th>
+<th scope="col" class="left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">Windows Vista     Service Pack 2</td>
+<td class="left">32 bit</td>
+</tr>
+
+<tr>
+<td class="left">Windows 7 Home Premium Service Pack 1</td>
+<td class="left">64 bit</td>
+</tr>
+
+<tr>
+<td class="left">Windows 8.1 Pro</td>
+<td class="left">64 bit</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">ソフトウェアのライセンス</h2>
+<div class="outline-text-2" id="text-4">
+<table>
+
+
+<colgroup>
+<col  class="left">
+
+<col  class="left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">対象</th>
+<th scope="col" class="left">ライセンス</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">ソースコード</td>
+<td class="left"><a href="http://www.kmonos.net/nysl/">"NYSL Version 0.9982"</a><sup><a id="fnr.4" name="fnr.4" class="footref" href="#fn.4">4</a></sup></td>
+</tr>
+
+<tr>
+<td class="left">アイコン<sup><a id="fnr.5" name="fnr.5" class="footref" href="#fn.5">5</a></sup></td>
+<td class="left"><a href="http://creativecommons.org/licenses/by/3.0/us/deed.en">Creative Commons - Attribution 3.0 United States</a><sup><a id="fnr.6" name="fnr.6" class="footref" href="#fn.6">6</a></sup></td>
+</tr>
+
+<tr>
+<td class="left">上記以外</td>
+<td class="left"><a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License v2.0</a><sup><a id="fnr.7" name="fnr.7" class="footref" href="#fn.7">7</a></sup></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5">新しい版への移行方法</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+　新しい版の導入方法は2通りあります。
+</p>
+<ol class="org-ol">
+<li>プログラムによって新しい版を自動的に導入する方法です。メニューの「ヘルプ」の「DvorakJ の更新情報を取得する」を選択すればすぐに、新しい版が公開されていれば自動的に導入します<sup><a id="fnr.8" name="fnr.8" class="footref" href="#fn.8">8</a></sup>。設定項目の「その他」の「起動時にソフトウェアの更新情報を取得する」を有効にすればソフトウェアの次回起動時に自動的に導入します<sup><a id="fnr.8.100" name="fnr.8.100" class="footref" href="#fn.8">8</a></sup>。
+</li>
+<li>新しい版を手動で導入する方法です。ウェブサイトから最新のファイルをダウンロードし、展開してすべて上書きしてください。
+</li>
+</ol>
+
+<p>
+　新しい版を導入した結果正常に動作しなくなったときには、別フォルダに新しい版のファイルを展開してください。
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6">ソフトウェアの削除方法</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+　関連するファイルをすべて削除してください。
+具体的には zip ファイルの展開後に現れるフォルダを削除してください。
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7">ソフトウェアのヘルプページ</h2>
+<div class="outline-text-2" id="text-7">
+<ul class="org-ul">
+<li><a href="http://blechmusik.xii.jp/dvorakj/">http://blechmusik.xii.jp/dvorakj/</a>
+</li>
+</ul>
+</div>
+</div>
+
+
+
+<div id="outline-container-sec-8" class="outline-2">
+<h2 id="sec-8">連絡先</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+　ソフトウェアの不具合の報告や要望等に関して、以下のいずれかの連絡先にお寄せ下さい。
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="left">
+
+<col  class="left">
+</colgroup>
+<tbody>
+<tr>
+<td class="left">日記</td>
+<td class="left"><a href="http://blechmusik.hatenablog.jp/">http://blechmusik.hatenablog.jp/</a></td>
+</tr>
+
+<tr>
+<td class="left">twitter</td>
+<td class="left"><a href="https://twitter.com/blechmusik">https://twitter.com/blechmusik</a></td>
+</tr>
+
+<tr>
+<td class="left">メール</td>
+<td class="left">blechmusik@gmail.com</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-sec-9" class="outline-2">
+<h2 id="sec-9">更新履歴</h2>
+<div class="outline-text-2" id="text-9">
+<p>
+<a href="./history.html">更新履歴のページ</a> を参照してください。
+</p>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">&#33050;&#27880;: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p class="footpara">
+<a href="http://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%BC%E9%85%8D%E5%88%97#101.E3.82.AD.E3.83.BC.E3.83.9C.E3.83.BC.E3.83.89">"キー配列 - Wikipedia （101キーボード）"</a>。ASCII 配列と呼ばれることもあります。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="#fnr.2">2</a></sup> <p class="footpara">
+<a href="http://ja.wikipedia.org/wiki/Dvorak%E9%85%8D%E5%88%97">"Dvorak配列 - Wikipedia"</a>
+</p></div>
+
+<div class="footdef"><sup><a id="fn.3" name="fn.3" class="footnum" href="#fnr.3">3</a></sup> <p class="footpara">
+たとえば <a href="http://technet.microsoft.com/ja-jp/sysinternals/bb897578">Ctrl2cap</a> を使用すれば動作をそのように変更できます。 <a href="http://www.atmarkit.co.jp/fwin2k/win2ktips/1182ctrl2cap/ctrl2cap.html">Ctrl2Capツールで［Ctrl］と［CapsLock］キーを入れ替える － ＠IT</a> を参照して下さい。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.4" name="fn.4" class="footnum" href="#fnr.4">4</a></sup> <p class="footpara">
+煮るなり焼くなりご自由にどうぞ。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.5" name="fn.5" class="footnum" href="#fnr.5">5</a></sup> <p class="footpara">
+<a href="http://www.fatcow.com/free-icons">3800 Free "Farm-Fresh Web Icons" by FatCow Web Hosting</a>
+</p></div>
+
+<div class="footdef"><sup><a id="fn.6" name="fn.6" class="footnum" href="#fnr.6">6</a></sup> <p class="footpara">
+DvorakJ が使用しているアイコンのライセンス、すなわち <a href="http://www.fatcow.com/">FatCow.com</a> が提供する <a href="http://www.fatcow.com/free-icons">2400 Free "Farm-Fresh Web Icons"</a> のライセンスを適用します。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.7" name="fn.7" class="footnum" href="#fnr.7">7</a></sup> <p class="footpara">
+DvorakJ が使用しているアプリケーション <a href="http://l.autohotkey.net/">AutoHotkey_L</a> が採用しているライセンスを適用します。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.8" name="fn.8" class="footnum" href="#fnr.8">8</a></sup> <p class="footpara">
+以前は DvorakJ_Updater.exe 単体を起動しない限り、最新のプログラムを自動的には導入しませんでした。現在では、新しい版を確認する処理であればどれでも、最新のプログラムを自動的に導入します。
+</p></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

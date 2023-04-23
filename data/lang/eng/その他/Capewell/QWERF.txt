@@ -1,0 +1,22 @@
+“¯Žž‚É‘ÅŒ®‚·‚é”z—ñ
+
+/*
+ * Projects / Alternative Keyboard Layouts | Michael Capewell | smozoma
+ * http://michaelcapewell.com/projects/keyboard/index.htm#The_QWERF_Layout
+ *
+ * QWERF 2006
+ */
+
+[
+1|2|3|4|5|6|7|8|9|0|-|=|\|
+q|w|e|r|f|j|y|k|l|;|[|]|
+a|s|d|t|g|h|u|i|o|p|'|`|
+z|x|c|v|b|n|m|,|.|/|\|
+]
+
+-shift[
+{!}|@ |{#}|$ |% |{^}|{&}|* |( |) |_  |{+}|@@@|
+Q  |W |E  |R |F |J  |Y  |K |L |: |{{}|{}}|
+A  |S |D  |T |G |H  |U  |I |O |P |"  |~  |
+Z  |X |C  |V |B |N  |M  |< |> |? |@@@|
+]

@@ -1,0 +1,24 @@
+èáÇ…ë≈åÆÇ∑ÇÈîzóÒ
+
+/* file name ÅF SKYTOUCH.txt
+ * http://www14.ocn.ne.jp/~skytouch/index.html
+ */
+
+-option-input[
+    {s} | -20
+    {k} | -21
+]
+
+[
+    ÇP|ÇQ|ÇR|ÇS|ÇT|ÇU |ÇV |ÇW |ÇX |ÇO |Å[|ÅO|Åè|
+    , |w |r |m |h |uu |ai |ou |.  |ei |
+    n |t |s |k |y |u  |a  |o  |i  |e  |
+    p |d |z |g |b |unn|ann|onn|inn|enn|
+]
+
+{s}{k}[
+
+      | | | | | | | |     |      |
+      | | | | | | | |{BS}f|{BS}Å[|
+      | | | | | | | |     |      |
+]

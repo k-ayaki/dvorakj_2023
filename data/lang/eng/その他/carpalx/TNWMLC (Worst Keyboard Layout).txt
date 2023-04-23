@@ -1,0 +1,23 @@
+“¯Žž‚É‘ÅŒ®‚·‚é”z—ñ
+
+/*
+ * Carpalx - keyboard layout optimizer
+ * http://mkweb.bcgsc.ca/carpalx/?worst_layout
+ *
+ * TNWMLC - Worst Keyboard Layout 
+ */
+
+
+[
+1|2|3|4|5|6|7|8|9|0|-|=|\|
+t|n|w|m|l|c|b|p|r|h|[|]|
+s|g|x|j|f|k|q|z|v|;|'|`|
+e|a|d|i|o|y|u|,|.|/|\|
+]
+
+-shift[
+{!}|@ |{#}|$ |% |{^}|{&}|* |( |) |_  |{+}|@@@|
+T  |N |W  |M |L |C  |B  |P |R |H |{{}|{}}|
+S  |G |X  |J |F |K  |Q  |Z |V |: |"  |~  |
+E  |A |D  |I |O |Y  |U  |< |> |? |@@@|
+]

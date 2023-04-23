@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DvorakJ 更新履歴</title>
+<meta  charset="utf-8">
+<meta  name="generator" content="Org-mode">
+<link rel="stylesheet" type="text/css" href="./bootstrap3/css/bootstrap.min.css">
+<script type="text/javascript" src="./js/jquery-latest.min.js"></script>
+<script type="text/javascript" src="./bootstrap3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/dvorakj-doc.js"></script>
+<script type="text/javascript" src="./js/generate_TOC.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">DvorakJ 更新履歴</h1>
+
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">最近の更新履歴</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1">2014-06-07</h3>
+<div class="outline-text-3" id="text-1-1">
+</div><div id="outline-container-sec-1-1-1" class="outline-4">
+<h4 id="sec-1-1-1">不具合の修正</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<ul class="org-ul">
+<li>「単一キー」の設定により、無変換キーと変換キーで何かしらのキーを発行すると、そのキーを二度発行してしまう症状に対処しました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2">2014-06-02</h3>
+<div class="outline-text-3" id="text-1-2">
+</div><div id="outline-container-sec-1-2-1" class="outline-4">
+<h4 id="sec-1-2-1">機能の追加</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<ul class="org-ul">
+<li>設定画面の「起動時の設定」から、スタートアップにショートカットのリンクを作成できるようにしました
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2-2" class="outline-4">
+<h4 id="sec-1-2-2">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<ul class="org-ul">
+<li>Microsoft が Windows XP のサポートを打ち切ったことを受けて、動作確認済みの OS として Windows Vista 以後の OS を掲げるようにしました
+</li>
+<li>Growl との連携機能を取り除きました
+</li>
+<li>設定画面の「その他」の項目の名称を変更しました
+</li>
+<li>スタートアップにショートカットのリンクを作成する機能を、「ツール」から取り除きました
+</li>
+<li>再起動を要する設定変更については、トレイチップにメッセージを表示するようにしました
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2-3" class="outline-4">
+<h4 id="sec-1-2-3">その他</h4>
+<div class="outline-text-4" id="text-1-2-3">
+<ul class="org-ul">
+<li>AutoHotkey &lt;1.1.15.00 - May 4, 2014&gt; を導入しました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3">2014-03-30</h3>
+<div class="outline-text-3" id="text-1-3">
+</div><div id="outline-container-sec-1-3-1" class="outline-4">
+<h4 id="sec-1-3-1">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<ul class="org-ul">
+<li>ユーザーがGoogle 日本語入力使用中であることを明示的に設定した場合、シフトキーを用いる動作にそうした設定が反映されない不具合を修正しました<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3-2" class="outline-4">
+<h4 id="sec-1-3-2">その他</h4>
+<div class="outline-text-4" id="text-1-3-2">
+<ul class="org-ul">
+<li>不要な条件分岐の処理をいくつか取り除きました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4">2014-03-29</h3>
+<div class="outline-text-3" id="text-1-4">
+</div><div id="outline-container-sec-1-4-1" class="outline-4">
+<h4 id="sec-1-4-1">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<ul class="org-ul">
+<li>Windows 8.1 で Google 日本語入力の入力モードを取得できない場合があるので、 ユーザーがGoogle 日本語入力使用中であることを明示的に設定できるようにしました<sup><a id="fnr.2" name="fnr.2" class="footref" href="#fn.2">2</a></sup>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-5" class="outline-3">
+<h3 id="sec-1-5">2014-03-21</h3>
+<div class="outline-text-3" id="text-1-5">
+</div><div id="outline-container-sec-1-5-1" class="outline-4">
+<h4 id="sec-1-5-1">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-5-1">
+<ul class="org-ul">
+<li>直接入力用配列の一時使用のための設定項目を、「直接入力」の箇所に移しました
+</li>
+<li>設定項目を表示する領域を若干拡張しました
+</li>
+<li>設定項目中の表現をいくつか変更しました
+</li>
+<li>スクリプト版を利用している場合には、デバッグ用のメニューの表示・非表示を選択できるようにしました（その他-&gt;画面）
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-5-2" class="outline-4">
+<h4 id="sec-1-5-2">その他</h4>
+<div class="outline-text-4" id="text-1-5-2">
+<ul class="org-ul">
+<li>黒塗り下駄配列の設定ファイルを更新しました
+</li>
+<li>Dvorak配列（黒塗り下駄配列との融合版）の設定ファイルを更新しました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-6" class="outline-3">
+<h3 id="sec-1-6">2014-03-09</h3>
+<div class="outline-text-3" id="text-1-6">
+</div><div id="outline-container-sec-1-6-1" class="outline-4">
+<h4 id="sec-1-6-1">不具合の修正</h4>
+<div class="outline-text-4" id="text-1-6-1">
+<ul class="org-ul">
+<li><a href="http://mkweb.bcgsc.ca/carpalx/?full_optimization">QGMLWY</a> の設定が一部 qwerty 配列の設定になっていましたので修正しました<sup><a id="fnr.3" name="fnr.3" class="footref" href="#fn.3">3</a></sup>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-7" class="outline-3">
+<h3 id="sec-1-7">2014-02-09</h3>
+<div class="outline-text-3" id="text-1-7">
+</div><div id="outline-container-sec-1-7-1" class="outline-4">
+<h4 id="sec-1-7-1">機能の追加</h4>
+<div class="outline-text-4" id="text-1-7-1">
+<ul class="org-ul">
+<li>DvorakJ のスタートアップへの登録を外部プログラムから実行できるようにしました (app/Dvorakj_create_and_delete_shortcut)
+</li>
+<li>DvorakJ の動作を外部プログラムから再開できるようにしました (app/Dvorakj_resume)
+</li>
+<li>DvorakJ の動作を外部プログラムから終了できるようにしました (app/Dvorakj_exit)
+</li>
+<li>DvorakJ の動作を外部プログラムから再起動できるようにしました (app/Dvorakj_reload)
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-7-2" class="outline-4">
+<h4 id="sec-1-7-2">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-7-2">
+<ul class="org-ul">
+<li>メニュー内部のアイコンをいくつか変更しました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-8" class="outline-3">
+<h3 id="sec-1-8">2014-01-29</h3>
+<div class="outline-text-3" id="text-1-8">
+</div><div id="outline-container-sec-1-8-1" class="outline-4">
+<h4 id="sec-1-8-1">機能の追加</h4>
+<div class="outline-text-4" id="text-1-8-1">
+<ul class="org-ul">
+<li>DvorakJ の動作を外部プログラムから停止できるようにしました (app/Dvorakj_suspend)
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-9" class="outline-3">
+<h3 id="sec-1-9">2013-11-24</h3>
+<div class="outline-text-3" id="text-1-9">
+</div><div id="outline-container-sec-1-9-1" class="outline-4">
+<h4 id="sec-1-9-1">不具合の修正</h4>
+<div class="outline-text-4" id="text-1-9-1">
+<ul class="org-ul">
+<li>パス名に関する不要な処理を取り除きました
+</li>
+<li>起動時に指定したアプリケーションを実行する設定画面に相対パスが適切に表示されなくなる症状に対処しました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-10" class="outline-3">
+<h3 id="sec-1-10">2013-11-20</h3>
+<div class="outline-text-3" id="text-1-10">
+</div><div id="outline-container-sec-1-10-1" class="outline-4">
+<h4 id="sec-1-10-1">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-10-1">
+<ul class="org-ul">
+<li>ファイルやフォルダを開く際にそのパスが存在しないならば、日本語でエラーメッセージを表示するようにしました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-11" class="outline-3">
+<h3 id="sec-1-11">2013-11-16</h3>
+<div class="outline-text-3" id="text-1-11">
+</div><div id="outline-container-sec-1-11-1" class="outline-4">
+<h4 id="sec-1-11-1">機能の追加</h4>
+<div class="outline-text-4" id="text-1-11-1">
+<ul class="org-ul">
+<li>DvorakJの起動時に指定したアプリケーションを実行できるようにしました
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-11-2" class="outline-4">
+<h4 id="sec-1-11-2">その他</h4>
+<div class="outline-text-4" id="text-1-11-2">
+<ul class="org-ul">
+<li>Autohotkey ファイルパス関数群を利用するようにしました <sup><a id="fnr.4" name="fnr.4" class="footref" href="#fn.4">4</a></sup>
+</li>
+<li><a href="http://l.autohotkey.net/">AutoHotkey_L</a> &lt;October 11, 2013 - v1.1.13.01&gt; を導入しました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-12" class="outline-3">
+<h3 id="sec-1-12">2013-10-26</h3>
+<div class="outline-text-3" id="text-1-12">
+</div><div id="outline-container-sec-1-12-1" class="outline-4">
+<h4 id="sec-1-12-1">不具合の修正</h4>
+<div class="outline-text-4" id="text-1-12-1">
+<ul class="org-ul">
+<li>変換候補窓の出現時に直接入力を一時的に使用する設定で、予想入力（推測変換）の表示窓を変換候補窓として誤検出しないようにしました
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-12-2" class="outline-4">
+<h4 id="sec-1-12-2">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-12-2">
+<ul class="org-ul">
+<li>「IME関連」カテゴリの項目の文言をいくつか変更しました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-13" class="outline-3">
+<h3 id="sec-1-13">2013-10-25</h3>
+<div class="outline-text-3" id="text-1-13">
+</div><div id="outline-container-sec-1-13-1" class="outline-4">
+<h4 id="sec-1-13-1">不具合の修正</h4>
+<div class="outline-text-4" id="text-1-13-1">
+<ul class="org-ul">
+<li>単一キーの設定によっては、同時に打鍵する配列で無変換キーや変換キーが使用できなくなる不具合を修正しました<sup><a id="fnr.5" name="fnr.5" class="footref" href="#fn.5">5</a></sup>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-13-2" class="outline-4">
+<h4 id="sec-1-13-2">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-13-2">
+<ul class="org-ul">
+<li>更新情報を取得する処理でメッセージの一部をメニュー・トレイに表示するようにしました
+</li>
+<li>「間隔」カテゴリを「待機・遅延」カテゴリに名称を変更しました
+</li>
+<li>「IME関連」カテゴリでIMEの状態を検出する間隔を設定するようにしました
+</li>
+<li>設定画面の項目の配置をいくつか変更しました
+</li>
+<li>設定画面上の文言をいくつか変更しました
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-13-3" class="outline-4">
+<h4 id="sec-1-13-3">その他</h4>
+<div class="outline-text-4" id="text-1-13-3">
+<ul class="org-ul">
+<li>Windows 8.1 の環境下で DvorakJ を開発するようにしました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-14" class="outline-3">
+<h3 id="sec-1-14">2013-10-23</h3>
+<div class="outline-text-3" id="text-1-14">
+</div><div id="outline-container-sec-1-14-1" class="outline-4">
+<h4 id="sec-1-14-1">不具合の修正</h4>
+<div class="outline-text-4" id="text-1-14-1">
+<ul class="org-ul">
+<li>変換候補窓の出現時に直接入力を一時的に使用する機能を利用できるように修正しました <sup><a id="fnr.6" name="fnr.6" class="footref" href="#fn.6">6</a></sup>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-14-2" class="outline-4">
+<h4 id="sec-1-14-2">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-14-2">
+<ul class="org-ul">
+<li>単一キーの機能選択画面で、セパレーターを表示するようにしました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-15" class="outline-3">
+<h3 id="sec-1-15">2013-09-28</h3>
+<div class="outline-text-3" id="text-1-15">
+</div><div id="outline-container-sec-1-15-1" class="outline-4">
+<h4 id="sec-1-15-1">機能の追加</h4>
+<div class="outline-text-4" id="text-1-15-1">
+<ul class="org-ul">
+<li>垂直スクロールの方向を逆にできるようにしました<sup><a id="fnr.7" name="fnr.7" class="footref" href="#fn.7">7</a></sup>。くるくるスクロールにも対応しています。
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-15-2" class="outline-4">
+<h4 id="sec-1-15-2">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-15-2">
+<ul class="org-ul">
+<li>「中国語入力時」に「直接入力を一時的に使用する」設定で、<a href="http://cpime.hk/">広東語ピンイン入力ソフト CPIME</a> に対応しました<sup><a id="fnr.8" name="fnr.8" class="footref" href="#fn.8">8</a></sup>。
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-16" class="outline-3">
+<h3 id="sec-1-16">2013-09-18</h3>
+<div class="outline-text-3" id="text-1-16">
+</div><div id="outline-container-sec-1-16-1" class="outline-4">
+<h4 id="sec-1-16-1">不具合の修正</h4>
+<div class="outline-text-4" id="text-1-16-1">
+<ul class="org-ul">
+<li>スクリプト版のソースコードとして # から始まるファイル名のスクリプトを収録するようにしました<sup><a id="fnr.9" name="fnr.9" class="footref" href="#fn.9">9</a></sup>
+</li>
+<li>実行バイナリ版において中国語入力中か否かを判定できない問題に対処しました<sup><a id="fnr.10" name="fnr.10" class="footref" href="#fn.10">10</a></sup>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-16-2" class="outline-4">
+<h4 id="sec-1-16-2">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-16-2">
+<ul class="org-ul">
+<li>DvorakJ_Updater による最新版の導入処理時に、動作を少々遅らせることによって挙動の安定化を図るようにしました
+</li>
+<li>直接入力の設定を中国語入力時に利用するよう設定している場合に限り、<a href="http://msdn.microsoft.com/ja-jp/library/cc364671.aspx">GetKeyboardLayout 関数</a>を用いて入力ロケール識別子を取得するようにしました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-17" class="outline-3">
+<h3 id="sec-1-17">2013-09-17</h3>
+<div class="outline-text-3" id="text-1-17">
+</div><div id="outline-container-sec-1-17-1" class="outline-4">
+<h4 id="sec-1-17-1">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-17-1">
+<ul class="org-ul">
+<li>中国語入力時に直接入力用配列の使用するかどうかを「IME関連」で明示的に設定するようにしました<sup><a id="fnr.11" name="fnr.11" class="footref" href="#fn.11">11</a></sup>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-17-2" class="outline-4">
+<h4 id="sec-1-17-2">その他</h4>
+<div class="outline-text-4" id="text-1-17-2">
+<ul class="org-ul">
+<li>DvorakJ本体と設定ウィンドウ間の連携に用いていたファイルを一切作成しないようにしました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-18" class="outline-3">
+<h3 id="sec-1-18">2013-09-16</h3>
+<div class="outline-text-3" id="text-1-18">
+</div><div id="outline-container-sec-1-18-1" class="outline-4">
+<h4 id="sec-1-18-1">機能の追加</h4>
+<div class="outline-text-4" id="text-1-18-1">
+<ul class="org-ul">
+<li>スタートアップに登録している DvorakJ のリンクをメニューバーから削除できるようにしました
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-18-2" class="outline-4">
+<h4 id="sec-1-18-2">不具合の修正</h4>
+<div class="outline-text-4" id="text-1-18-2">
+<ul class="org-ul">
+<li>更新処理の際ウィンドウ内の文字が化けてしまう現象に対処しました
+</li>
+<li>キーボード配列を解析するスクリプト版のプログラムが動作しなくなっていた問題を解消しました
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-18-3" class="outline-4">
+<h4 id="sec-1-18-3">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-18-3">
+<ul class="org-ul">
+<li>README.txt と history.txt を BOM付きの utf-8 で保存するようにしました
+</li>
+<li>スクリプト版を使用しているときでもプログラムの更新を確認できるようにしました
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-19" class="outline-3">
+<h3 id="sec-1-19">2013-09-15</h3>
+<div class="outline-text-3" id="text-1-19">
+</div><div id="outline-container-sec-1-19-1" class="outline-4">
+<h4 id="sec-1-19-1">機能の追加</h4>
+<div class="outline-text-4" id="text-1-19-1">
+<ul class="org-ul">
+<li><a href="http://www.growlforwindows.com/gfw/">Growl for Windows</a> を使って各種通知を表示できるようにしました
+</li>
+<li>通知を頻繁に行うかどうかを選択できるようにしました
+</li>
+<li>マウスホイールの方向を逆にできるようにしました<sup><a id="fnr.12" name="fnr.12" class="footref" href="#fn.12">12</a></sup>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-19-2" class="outline-4">
+<h4 id="sec-1-19-2">仕様の変更</h4>
+<div class="outline-text-4" id="text-1-19-2">
+<ul class="org-ul">
+<li>ツールチップを用いて各種通知を表示するようにしました
+</li>
+<li>DvorakJ の動作停止中にはキーボード配列名に打ち消し線を挿入するようにしました
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-19-3" class="outline-4">
+<h4 id="sec-1-19-3">機能の改良</h4>
+<div class="outline-text-4" id="text-1-19-3">
+<ul class="org-ul">
+<li>DvorakJ本体と設定ウィンドウ間の連携を即座に処理するようにしました<sup><a id="fnr.13" name="fnr.13" class="footref" href="#fn.13">13</a></sup>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-19-4" class="outline-4">
+<h4 id="sec-1-19-4">その他</h4>
+<div class="outline-text-4" id="text-1-19-4">
+<ul class="org-ul">
+<li><a href="http://l.autohotkey.net/">AutoHotkey_L</a> &lt;1.1.13.00 - August 27, 2013&gt; を導入しました
+</li>
+<li>IME.ahk の最新版（【 更新日 】 2012.11.10 ）を導入しました<sup><a id="fnr.14" name="fnr.14" class="footref" href="#fn.14">14</a></sup>
+</li>
+<li><a href="http://orgmode.org/">org-mode</a> を使ってドキュメント類を作成するようにしました
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">過去の更新履歴</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+<a href="http://blechmusik.xii.jp/dvorakj/">DvorakJのページ</a> 中の"全般:更新履歴"を参照してください。
+</p>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">&#33050;&#27880;: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p class="footpara">
+鮎月さんのご指摘（メール）に対応したものです。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="#fnr.2">2</a></sup> <p class="footpara">
+鮎月さんのご指摘（メール）に対応したものです。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.3" name="fn.3" class="footnum" href="#fnr.3">3</a></sup> <p class="footpara">
+<a href="https://twitter.com/fsktakahasi/status/442631526073630721">fsktakahasiさんのご指摘</a> に対応したものです。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.4" name="fn.4" class="footnum" href="#fnr.4">4</a></sup> <p class="footpara">
+<a href="http://www6.atwiki.jp/eamat/pages/22.html">eamat @Cabinet - Path.txt</a>
+</p></div>
+
+<div class="footdef"><sup><a id="fn.5" name="fn.5" class="footnum" href="#fnr.5">5</a></sup> <p class="footpara">
+<a href="http://blechmusik.hatenablog.jp/entry/2013/09/16/021205">お魚さんのご指摘</a> と <a href="https://twitter.com/sakazuki/status/393304552780210176">sakazukiさんのご指摘</a> に対応したものです。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.6" name="fn.6" class="footnum" href="#fnr.6">6</a></sup> <p class="footpara">
+<a href="http://blechmusik.hatenablog.jp/entry/2013/10/19/212857#comment-12921228815711173186">noporuさんのご指摘</a> に対応したものです。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.7" name="fn.7" class="footnum" href="#fnr.7">7</a></sup> <p class="footpara">
+<a href="https://twitter.com/h084/status/120840316055064576">丸橋裕生 さんのご指摘</a>に対応したものです。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.8" name="fn.8" class="footnum" href="#fnr.8">8</a></sup> <p class="footpara">
+三好さんのご指摘（メール）に対応したものです。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.9" name="fn.9" class="footnum" href="#fnr.9">9</a></sup> <p class="footpara">
+<a href="http://blechmusik.hatenablog.jp/entry/2013/09/17/012643#comment-11696248318757858094">kasuga_toru さんのご指摘</a>に対応したものです。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.10" name="fn.10" class="footnum" href="#fnr.10">10</a></sup> <p class="footpara">
+<a href="http://blechmusik.hatenablog.jp/entry/2013/09/16/021205#comment-11696248318757832174">konzertnr9 さんのご指摘</a>に対応したものです。入力ロケール識別子を取得する<a href="http://msdn.microsoft.com/ja-jp/library/cc364671.aspx">GetKeyboardLayout 関数</a>の呼び出しが実行バイナリ版では失敗していたため、キーボードの情報を正しく取得できていませんでした。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.11" name="fn.11" class="footnum" href="#fnr.11">11</a></sup> <p class="footpara">
+従来は「全角英数または半角英数入力時」に直接入力を一時的に使用するよう設定すれば、中国語入力時にも直接入力用の配列を使用していました。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.12" name="fn.12" class="footnum" href="#fnr.12">12</a></sup> <p class="footpara">
+<a href="https://twitter.com/h084/status/120840316055064576">https://twitter.com/h084/status/120840316055064576</a> への対応です
+</p></div>
+
+<div class="footdef"><sup><a id="fn.13" name="fn.13" class="footnum" href="#fnr.13">13</a></sup> <p class="footpara">
+iniファイルでのやりとりを止めて<a href="http://l.autohotkey.net/docs/commands/PostMessage.htm">PostMessage / SendMessage</a>を活用するようにしました。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.14" name="fn.14" class="footnum" href="#fnr.14">14</a></sup> <p class="footpara">
+<a href="http://www6.atwiki.jp/eamat/pages/17.html">eamat @Cabinet - IME制御</a> の  <a href="http://www6.atwiki.jp/eamat/pages/18.html">eamat @Cabinet - IME.ahk</a>
+</p></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

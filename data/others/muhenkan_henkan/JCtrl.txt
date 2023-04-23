@@ -1,0 +1,22 @@
+/* 
+ * 
+ * JCtrl
+ * http://www1.vecceed.ne.jp/~bemu/act/JCtrl_doc.html
+ * 
+ */
+
+-muhenkan[
+
+{home} |+{Å©}|{Å™}|+{Å®}|{end} |{alt}  |^u     |{tab}|^o   |^p|{PgDn}   |
+^{BS}  | {Å©}|{Å´}| {Å®}|{del} |{bs}   |{esc}  |^z   |^s   |^f|{RButton}|
++{Å©}^x|^x   |^c  |^v   |!es   |^!{tab}|{enter}|^y   |{win}|#d|
+]
+
+/*
+-henkan[
+  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |
+]
+*/

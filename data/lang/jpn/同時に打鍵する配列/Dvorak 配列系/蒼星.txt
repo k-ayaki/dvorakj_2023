@@ -1,0 +1,23 @@
+同時に打鍵する配列
+
+/* 
+ * 蒼星（日本語入力配列）
+ * http://onpumoe.hp.infoseek.co.jp/keyboard/sousei.html （リンク切れ）
+ */
+
+
+/* 単打 */
+[
+１ |２ |３ |４ |５ |６|７|８|９|０|「|」|￥|
+aい|oう|eい|uう|uい|p |g |k |r |l |、|＠|
+a  |o  |e  |u  |i  |d |h |t |n |s |。|＾|
+aん|oん|eん|uん|iん|b |m |w |y |z |￥|
+]
+
+/* shift */
+-shift[
+！ |” |＃ |＄ |％ |＾|’|（|）|  |｛|｝|｜|
+ぁ |ぉ |ぇ |ぅ |ぃ |py|gy|ky|ry|っ|？|｀|
+aー|oー|eー|uー|iー|dy|hy|ty|ny|sy|・|～|
+aっ|oっ|eっ|uっ|iっ|by|my|ん|ー|zy|＿|
+]

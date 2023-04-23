@@ -1,0 +1,27 @@
+/*
+ * キーリスト (AutoHotkeyJp)
+ * http://sites.google.com/site/autohotkeyjp/reference/KeyList
+ */
+
+/*
+ * SUNDSTRAND - Google Patent Search
+ * http://www.google.com/patents/about?id=xs1SAAAAEBAJ&dq=1198487
+ */
+
+-NumLock[
+           |{NumpadDiv}|{NumpadMult} |
+{NumpadSub}|{NumpadAdd}|{NumpadEnter}|
+{Numpad7}  |{Numpad8}  |{Numpad9}    |
+{Numpad4}  |{Numpad5}  |{Numpad6}    |
+{Numpad1}  |{Numpad2}  |{Numpad3}    |
+{Numpad0}              |{NumpadDot}  |
+]
+
+[
+            |{NumpadDiv} |{NumpadMult} |
+{NumpadSub} |{NumpadAdd} |{NumpadEnter}|
+{NumpadHome}|{NumpadUp}  |{NumpadPgUp} |
+{NumpadLeft}|            |{NumpadRight}|
+{NumpadEnd} |{NumpadDown}|{NumpadPgDn} |
+{NumpadIns}              |{NumpadDel}  |
+]

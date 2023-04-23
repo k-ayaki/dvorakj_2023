@@ -1,0 +1,38 @@
+“¯Žž‚É‘ÅŒ®‚·‚é”z—ñ
+
+
+/*
+ * ‚³‚ç”z—ñ
+ * http://www015.upp.so-net.ne.jp/sanskrit/sala.htm
+ */
+
+
+[
+||{Space}|{backspace}|‚S|‚T|‚U|‚V|‚W|‚X|‚O|E|F|G|
+[|‚Æ     |‚È         |‚Ä|‚»|‚R|‚Õ|‚Â|‹ó|‚Í|‚Ö|H|
+‚©|‚Ì     |‚µ         |‚½|‚±|‚Q|‚ð|‚ñ|‚¢|‚¤|‚å|‚é|
+‚·|‚ã     |‚¶         |‚É|‚Ï|‚P|‚Á|A|‚­|‚Ü|‚á|
+]
+
+-space[
+  |  |  |  |  |  |  |  |  |u|v|  |  |
+‚Ú|‚¬|‚¹|‚º|  |  |‚£|‚¡|‚í|‚Ó|‚Ò|b|
+‚â|‚Å|‚¾|‚³|‚Ÿ|  |‚ß|‚ç|‚¯|‚ê|‚ë|‚Ê|
+B|‚Ô|‚Ñ|‚Ý|  |  |D|‚Þ|‚ä|‚Î|‚°|
+]
+
+
+-muhenkan[
+e|f|i|j|  |  |  |  |  |  |  |  |  |
+‚Ø|‚À|‚Ç|‚Ù|‚Û|  |  |‚§|‚×|‚´|‚Ã|  |
+‚²|‚ |‚¿|‚¨|‚¥|  |  |‚«|‚¦|‚à|‚ª|  |
+‚Ë|‚¼|‚æ|‚è|  |  |  |‚¸|ƒ”|‚Ð|‚®|
+]
+
+
+-shift[
+Q|h|`||“|•|^|–|{|||||ò|
+‚p|‚v|‚d|‚q|‚s|‚x|‚t|‚h|‚n|‚o|o|p|
+‚`|‚r|‚c|‚e|‚f|‚g|‚i|‚j|‚k|m|n|C|
+‚y|‚w|‚b|‚u|‚a|‚m|‚l|I|ƒ|„|  |
+]

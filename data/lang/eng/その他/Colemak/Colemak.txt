@@ -1,0 +1,21 @@
+“¯Žž‚É‘ÅŒ®‚·‚é”z—ñ
+
+/*
+ * Colemak keyboard layout: ergonomic, fast and easy to learn QWERTY/Dvorak alternative
+ * http://colemak.com/
+ */
+
+[
+1|2|3|4|5|6|7|8|9|0|-|=|\|
+q|w|f|p|g|j|l|u|y|;|[|]|
+a|r|s|t|d|h|n|e|i|o|'|`|
+z|x|c|v|b|k|m|,|.|/|\|
+]
+
+-shift[
+{!}|@ |{#}|$ |% |{^}|{&}|* |( |) |_  |{+}|@@@|
+Q  |W |F  |P |G |J  |L  |U |Y |: |{{}|{}}|
+A  |R |S  |T |D |H  |N  |E |I |O |"  |~  |
+Z  |X |C  |V |B |K  |M  |< |> |? |@@@|
+]
+

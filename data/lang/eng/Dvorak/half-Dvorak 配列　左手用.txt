@@ -1,0 +1,20 @@
+‡‚É‘ÅŒ®‚·‚é”z—ñ
+
+/*
+ * based on "Dvorak layout for the left hand"
+ * http://www.microsoft.com/enable/products/dvlayout.aspx
+ */
+
+[
+[|]|/|p|f|m|l|j|4|3|2|1|\|
+;|b|y|u|s|r|o|.|q|6|5|=|
+-|k|c|d|t|h|e|a|z|8|7|`|
+'|g|v|w|n|i|,|x|0|9|\|
+]
+
+-shift[
+{{}|{}}|? |P |F |M |L |J |$ |{#}|@  |{!}|@@@|
+:  |Q  |B |Y |U |R |S |O |> |{^}|%  |{+}|
+_  |K  |C |D |T |H |E |A |Z |*  |&  |~  |
+"  |X  |G |V |W |N |I |< |) |(  |@@@|
+]

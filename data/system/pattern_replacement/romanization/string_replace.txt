@@ -1,0 +1,141 @@
+Ç¡Çü	xxa
+Ç¡Ç°	xxi
+Ç¡Ç£	xxu
+Ç¡Ç•	xxe
+Ç¡Çß	xxo
+Ç¡Ç©	kka
+Ç¡Ç™	gga
+Ç¡Ç´	kki
+Ç¡Ç¨	ggi
+Ç¡Ç≠	kku
+Ç¡ÇÆ	ggu
+Ç¡ÇØ	kke
+Ç¡Ç∞	gge
+Ç¡Ç±	kko
+Ç¡Ç≤	ggo
+Ç¡Ç≥	ssa
+Ç¡Ç¥	zza
+Ç¡Çµ	ssi
+Ç¡Ç∂	zzi
+Ç¡Ç∑	ssu
+Ç¡Ç∏	zzu
+Ç¡Çπ	sse
+Ç¡Ç∫	zze
+Ç¡Çª	sso
+Ç¡Çº	zzo
+Ç¡ÇΩ	tta
+Ç¡Çæ	dda
+Ç¡Çø	tti
+Ç¡Ç¿	ddi
+Ç¡Ç¡	xxtu
+Ç¡Ç¬	ttu
+Ç¡Ç√	ddu
+Ç¡Çƒ	tte
+Ç¡Ç≈	dde
+Ç¡Ç∆	tto
+Ç¡Ç«	ddo
+Ç¡Ç»	nna
+Ç¡Ç…	nni
+Ç¡Ç 	nnu
+Ç¡ÇÀ	nne
+Ç¡ÇÃ	nno
+Ç¡ÇÕ	hha
+Ç¡ÇŒ	bba
+Ç¡Çœ	ppa
+Ç¡Ç–	hhi
+Ç¡Ç—	bbi
+Ç¡Ç“	ppi
+Ç¡Ç”	hhu
+Ç¡Ç‘	bbu
+Ç¡Ç’	ppu
+Ç¡Ç÷	hhe
+Ç¡Ç◊	bbe
+Ç¡Çÿ	ppe
+Ç¡ÇŸ	hho
+Ç¡Ç⁄	bbo
+Ç¡Ç€	ppo
+Ç¡Ç‹	mma
+Ç¡Ç›	mmi
+Ç¡Çﬁ	mmu
+Ç¡Çﬂ	mme
+Ç¡Ç‡	mmo
+Ç¡Ç·	xxya
+Ç¡Ç‚	yya
+Ç¡Ç„	xxyu
+Ç¡Ç‰	yyu
+Ç¡ÇÂ	xxyo
+Ç¡ÇÊ	yyo
+Ç¡ÇÁ	rra
+Ç¡ÇË	rri
+Ç¡ÇÈ	rru
+Ç¡ÇÍ	rre
+Ç¡ÇÎ	rro
+Ç¡ÇÏ	xxwa
+Ç¡ÇÌ	wwa
+Ç¡Ç	wwo
+Ç¡ÇÒ	nnn
+
+
+Ç§ÅJ	Éî
+
+
+/*
+	ç≈è„íi
+*/
+
+	ÇO	0
+	ÇP	1
+	ÇQ	2
+	ÇR	3
+	ÇS	4
+	ÇT	5
+	ÇU	6
+	ÇV	7
+	ÇW	8
+	ÇX	9
+
+	ÅI	+{vk31sc002}
+	Åh	+{vk32sc003}
+	Åî	+{vk33sc004}
+	Åê	+{vk34sc005}
+	Åì	+{vk35sc006}
+	Åï	+{vk36sc007}
+	Åf	+{vk37sc008}
+	Åi	+{vk38sc009}
+	Åj	+{vk39sc00A}
+
+	 Å[	{vkBDsc00C}
+	 ÅO	{vkDEsc00D}
+	 Åè	{vkDCsc07D}
+	ÅÅ	+{vkBDsc00C}
+	Å`	+{vkDEsc00D}
+	Åb	+{vkDCsc07D}
+
+
+/*
+è„íiÇ∆íÜíi 
+*/
+	Åu	{vkDBsc01B}
+	Åv	{vkDDsc02B}
+	Åo	+{vkDBsc01B}
+	Åp	+{vkDDsc02B}
+
+	ÅF	{vkBAsc028}
+	ÅG	{vkBBsc027}
+	Å{	+{vkBBsc027}
+	Åñ	+{vkBAsc028}
+
+	Åó	 {vkC0sc01A}
+	ÅM	+{vkC0sc01A}
+
+
+/*
+	â∫íi
+*/
+	ÅA	{vkBCsc033}
+	ÅB	{vkBEsc034}
+	ÅE	{vkBFsc035}
+	ÅÉ	+{vkBCsc033}
+	ÅÑ	+{vkBEsc034}
+	ÅH	+{vkBFsc035}
+	ÅQ	+{vkE2sc073}

@@ -1,0 +1,23 @@
+“¯Žž‚É‘ÅŒ®‚·‚é”z—ñ
+
+/*
+ * Projects / Alternative Keyboard Layouts | Michael Capewell | smozoma
+ * http://michaelcapewell.com/projects/keyboard/index.htm#The_Capewell-Dvorak_Layout
+ *
+ * The Capewell-Dvorak Layout
+ */
+
+[
+1|2|3|4|5|6|7|8|9|0|-|=|\|
+'|,|.|p|y|q|f|g|r|k|[|]|
+o|a|e|i|u|d|h|t|n|s|/|`|
+z|x|c|v|j|l|m|w|b|;|\|
+]
+
+-shift[
+{!}|@ |{#}|$ |% |{^}|{&}|* |( |) |_  |{+}|@@@|
+"  |< |>  |P |Y |Q  |F  |G |R |K |{{}|{}}|
+O  |A |E  |I |U |D  |H  |T |N |S |?  |~  |
+Z  |X |C  |V |J |L  |M  |W |B |: |@@@|
+]
+

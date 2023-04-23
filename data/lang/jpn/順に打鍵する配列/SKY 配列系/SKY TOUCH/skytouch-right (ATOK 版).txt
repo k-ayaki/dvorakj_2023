@@ -1,0 +1,34 @@
+èáÇ…ë≈åÆÇ∑ÇÈîzóÒ
+
+/* file name : SKYTOUCH-RIGHT.txt
+ * http://www14.ocn.ne.jp/~skytouch/index.html
+ */
+
+-option-input[
+    {t} | -23
+    {k} | -24
+]
+
+[
+    ÇP |ÇQ |ÇR |ÇS |ÇT |ÇU |ÇV |ÇW |ÇX |ÇO |Å[|ÅO|Åè|
+       |   |   |   |   |r  |n  |u  |e  |ai |
+       |   |   |   |   |t  |k  |i  |a  |o  |
+       |   |   |   |   |h  |s  |y  |ou |,  |
+]
+
+/* [space] + ï∂éöÉLÅ[ */
+-space[
+
+   |   |   |   |   |{BS}p  |{BS}m  |{BS}unn|{BS}enn|{BS}ei |
+   |   |   |   |   |{BS}d  |{BS}g  |{BS}inn|{BS}ann|{BS}onn|
+   |   |   |   |   |{BS}b  |{BS}z  |{BS}w  |{BS}uu |{BS}.  |
+{space}|
+]
+
+
+{t}{k}[
+
+       |   |   |   |   |   |   |  |     |      |
+       |   |   |   |   |   |   |  |{BS}f|{BS}Å[|
+       |   |   |   |   |   |   |  |     |      |
+]

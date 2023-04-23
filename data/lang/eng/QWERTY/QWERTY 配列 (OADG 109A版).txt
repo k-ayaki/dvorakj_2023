@@ -1,0 +1,27 @@
+同時に打鍵する配列
+
+/*
+ * ＯＡＤＧ １０９Ａキーボード　ＪＩＳによる参照キーボードに！
+ * http://www.oadg.or.jp/news/news2/notice/109A-JIS.html
+ *
+ * http://www.oadg.or.jp/images/109A.pdf
+ *
+ * キー配列 - Wikipedia
+ * http://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%BC%E9%85%8D%E5%88%97#109.E3.82.AD.E3.83.BC.E3.83.9C.E3.83.BC.E3.83.89
+ */
+
+[
+1|2|3|4|5|6|7|8|9|0|-|{^}|\|
+q|w|e|r|t|y|u|i|o|p|@|[  |
+a|s|d|f|g|h|j|k|l|;|:|]  |
+z|x|c|v|b|n|m|,|.|/|\|
+]
+
+-shift[
+{!}|" |{#}|$ |% |{&}|' |( |) |   |=|~  |@@@|
+Q  |W |E  |R |T |Y  |U |I |O |P  |`|{{}|
+A  |S |D  |F |G |H  |J |K |L |{+}|*|{}}|
+Z  |X |C  |V |B |N  |M |< |> |?  |_|
+]
+
+

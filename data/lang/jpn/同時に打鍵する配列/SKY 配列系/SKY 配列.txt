@@ -1,0 +1,14 @@
+同時に打鍵する配列
+
+/*
+ * CiNii Article -  Design of a Key Layout for the Roman Alphabet Besed Japanese Input System and Its Evaluation
+ * http://ci.nii.ac.jp/naid/110002764500
+ */
+
+/* 単打 */
+[
+
+、|w|r|m|h|uu|ai|ou|。|ei|
+n |t|s|k|y|u |a |o |i |e |
+p |d|z|g|b|un|an|on|in|en|
+]

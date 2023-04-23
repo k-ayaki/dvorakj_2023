@@ -1,0 +1,24 @@
+“¯Žž‚É‘ÅŒ®‚·‚é”z—ñ
+
+/*
+ * Carpalx - keyboard layout optimizer
+ * http://mkweb.bcgsc.ca/carpalx/?partial_optimization#five_most_effective_keyswaps
+ *
+ * Partial Optimization - QWKRFY (5 swap) and QWYRFM (10 swap) Layouts 
+ */
+
+
+[
+1|2|3|4|5|6|7|8|9|0|-|=|\|
+q|w|k|r|f|y|u|i|j|p|[|]|
+d|s|a|t|n|h|o|e|l|;|'|`|
+z|x|c|v|b|g|m|,|.|/|\|
+]
+
+-shift[
+{!}|@ |{#}|$ |% |{^}|{&}|* |( |) |_  |{+}|@@@|
+Q  |W |K  |R |F |Y  |U  |I |J |P |{{}|{}}|
+D  |S |A  |T |N |H  |O  |E |L |: |"  |~  |
+Z  |X |C  |V |B |G  |M  |< |> |? |@@@|
+]
+

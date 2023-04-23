@@ -1,0 +1,40 @@
+/*
+ * 独自のショートカットキー　設定例
+ */
+/* すべてのアプリケーションに共通する設定 */
+[
+    /* {Win}, {Alt} を使用する vi 風カーソル移動 for Dvorak 配列 */
+        {Win}{Alt} d | {Left}
+        {Win}{Alt} h | {Down}
+        {Win}{Alt} t | {Up}
+        {Win}{Alt} n | {Right}
+
+    /* {Win}, {Alt}, {Ctrl} を使用する vi 風カーソル移動 for QWERTY 配列 */
+
+        {Win}{Alt}{Ctrl} h | {Home}
+        {Win}{Alt}{Ctrl} j | {PgDn}
+        {Win}{Alt}{Ctrl} k | {PgUp}
+        {Win}{Alt}{Ctrl} l | {End}
+
+    /* {Win}, {Alt}, {Ctrl}, {Shift} と ";" で "test1"を出力する */
+        {Win}{Alt}{Ctrl}{Shift} ; | Test1
+
+
+    /* {Win}, {Alt}, {Ctrl}, {Shift} と "r" で DvorakJ を再起動する */
+        {Win}{Alt}{Ctrl}{Shift} r | {reload}
+]
+
+
+/* 特定のアプリケーション向け設定 */
+
+    /* for Mozilla Firefox */
+    [ MozillaUIWindowClass
+        {Win}{Alt} s               | Test2         
+        {Win}{Alt} f  o            | FireFox{!}    
+        {Win}{Alt} f  {Win}{Alt} o | <FireFox{!} 3>
+    ]
+
+    /* for EmEditor */
+    [ EmEditorMainFrame3
+        {Win}{Alt} s     | Test3
+    ]

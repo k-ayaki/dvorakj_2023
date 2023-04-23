@@ -1,0 +1,48 @@
+“¯Žž‚É‘ÅŒ®‚·‚é”z—ñ
+
+/*
+ * NICOLA ”z—ñ‹KŠi‘
+ * http://nicola.sunicom.co.jp/spec/kikaku.htm
+ *
+ * ‚æ‚­•ª‚©‚ç‚È‚¢ NICOLA”z—ñ‚ð•œŒ³‚µ‚Ä‚Ý‚é - blechmusik2‚Ì“ú‹L
+ * http://d.hatena.ne.jp/blechmusik2/20100110/1263060420
+ */
+
+
+
+/* •¶ŽšƒL[‚ð’P“Æ‚Å“ü—Í */
+[
+  |  |  |  |  |  |  |  |  |  |  |  |  |
+B|‚©|‚½|‚±|‚³|‚ç|‚¿|‚­|‚Â|C|A|  |
+‚¤|‚µ|‚Ä|‚¯|‚¹|‚Í|‚Æ|‚«|‚¢|‚ñ|  |  |
+D|‚Ð|‚·|‚Ó|‚Ö|‚ß|‚»|‚Ë|‚Ù|E|  |
+]
+
+
+/* [–³•ÏŠ·] + •¶ŽšƒL[ */
+-muhenkan[
+  |  |  |  |  |  |  |  |  |  |  |  |  |
+‚Ÿ|‚¦|‚è|‚á|‚ê|‚Ï|‚À|‚®|‚Ã|‚Ò|  |  |
+‚ð|‚ |‚È|‚ã|‚à|‚Î|‚Ç|‚¬|‚Û|  |  |  |
+‚£|[|‚ë|‚â|‚¡|‚Õ|‚¼|‚Ø|‚Ú|J|  |
+{–³•ÏŠ·}|
+]
+
+
+/* [space] + •¶ŽšƒL[ */
+-space[
+  |  |  |  |  |  |  |  |  |  |  |  |  |
+K|‚ª|‚¾|‚²|‚´|‚æ|‚É|‚é|‚Ü|‚¥|  |  |
+ƒ”|‚¶|‚Å|‚°|‚º|‚Ý|‚¨|‚Ì|‚å|‚Á|  |  |
+  |‚Ñ|‚¸|‚Ô|‚×|‚Ê|‚ä|‚Þ|‚í|‚§|  |
+{space}|
+]
+
+
+/* [shift] + •¶ŽšƒL[ */
+-shift[
+I|h|”||“|•|f|i|j|  ||`|b|
+‚p|‚v|‚d|‚q|‚s|‚x|‚t|‚h|‚n|‚o|M|o|
+‚`|‚r|‚c|‚e|‚f|‚g|‚i|‚j|‚k|{|–|p|
+‚y|‚w|‚b|‚u|‚a|‚m|‚l|ƒ|„|H|Q|
+]

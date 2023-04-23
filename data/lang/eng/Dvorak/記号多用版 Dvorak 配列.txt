@@ -1,0 +1,24 @@
+同時に打鍵する配列
+
+/*
+ * 記号多用版 Dvorak 配列
+ *
+ * 以下の "Programmer Dvorak" とほぼ同一の配列である
+ *
+ * Programmer Dvorak
+ * http://www.kaufmann.no/roland/dvorak/
+ */
+
+[
+&|[|{{}|{}}|(|=|*|)|{+}|]|{!}|{#}|\ |
+;|,|.  |p  |y|f|g|c|r  |l|/  |@  |
+a|o|e  |u  |i|d|h|t|n  |s|-  |$  |
+'|q|j  |k  |x|b|m|w|v  |z|\  |
+]
+
+-shift[
+% |7 |5 |3 |1 |9 |0 |2 |4 |6 |8  |`  |@@@|
+: |< |> |P |Y |F |G |C |R |L |?  |{^}|
+A |O |E |U |I |D |H |T |N |S |_  |~  |
+" |Q |J |K |X |B |M |W |V |Z |@@@|
+]

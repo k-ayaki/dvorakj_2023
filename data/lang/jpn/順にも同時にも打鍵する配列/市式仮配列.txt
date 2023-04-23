@@ -1,0 +1,522 @@
+順にも同時にも打鍵する配列
+
+/*
+ * 市式仮配列
+ * http://blog.livedoor.jp/ickw0911/archives/51402501.html
+ */
+
+-option-input[
+    /* QWERTY */
+        /* 上段 */
+            [q] | -10
+            [w] | -11
+            [e] | -12
+            [r] | -13
+            [t] | -14
+
+            [y] | +15
+            [u] | +16
+            [i] | +17
+            [o] | +18
+            [p] | +19
+
+        /* 中段 */
+            [a] | -1E
+            [s] | -1F
+            [d] | -20
+            [f] | -21
+            [g] | -22
+
+            [h] | +23
+            [j] | +24
+            [k] | +25
+            [l] | +26
+            [;] | +27
+            [:] | +28
+
+        /* 下段 */
+            [z] | -2C
+            [x] | -2D
+            [c] | -2E
+            [v] | -2F
+            [b] | -30
+
+            [n] | +31
+            [m] | +32
+            [,] | +33
+            [.] | +34
+            [/] | +35
+
+	/* 位置の指定 */
+        /* 上段 */
+            {上段左手小指}     | [q]
+            {上段左手薬指}     | [w]
+            {上段左手中指}     | [e]
+            {上段左手人差し指} | [r], [t]
+
+        /* 中段 */
+            {中段左手小指}     | [a]
+            {中段左手薬指}     | [s]
+            {中段左手中指}     | [d]
+            {中段左手人差し指} | [f], [g]
+
+        /* 下段 */
+            {下段左手小指}     | [z]
+            {下段左手薬指}     | [x]
+            {下段左手中指}     | [c]
+            {下段左手人差し指} | [v]
+
+    /* 市式仮配列上の設定 */
+        /* 上段 */
+            {p} | [q]
+            {y} | [w]
+            {r} | [e]
+            {h} | [r]
+            {b} | [t]
+
+            {上段ち} | [y]
+            {上段き} | [u]
+            {イ行} | [i]
+            {エ行} | [o]
+            {上段つ} | [p]
+
+        /* 中段 */
+            {s} | [a]
+            {t} | [s]
+            {k} | [d]
+            {n} | [f]
+            {w} | [g]
+
+            {中段つ} | [h]
+            {ア行} | [j]
+            {ウ行} | [k]
+            {オ行} | [l]
+            {★} | [;]
+            {中段く} | [:]
+
+        /* 下段 */
+            {z} | [z]
+            {d} | [x]
+            {g} | [c]
+            {m} | [v]
+            {◇} | [b]
+
+            {下段く} | [n]
+            {◆} | [m]
+            {下段ち} | [,]
+            {下段き} | [.]
+]
+
+/* 基本の設定 */
+[
+
+p|y|r|h|b| | |i|e| |
+s|t|k|n|w| |a|u|o| |
+z|d|g|m| | | | | | |
+]
+
+	{n}, ({★}[
+
+	  |  |  |  |  |  |  |  |  |  |
+	  |  |  |ん|  |  |  |  |  |  |
+	  |  |  |  |  |  |  |  |  |  |
+	]
+/*
+	({ア行}[
+
+	  |  |  |  |  |  |  |  |  |  |
+	  |  |  |  |  |  |  |  |  |a |
+	  |  |  |  |  |  |  |  |  |  |
+	]
+
+	({イ行}[
+
+	pi|yi|ri|hi|bi|
+	si|ti|ki|ni|wi|
+	zi|di|gi|mi|
+	]
+
+	({ウ行}[
+
+	pu|yu|ru|hu|bu|
+	su|tu|ku|nu|wu|
+	zu|du|gu|mu|
+	]
+
+	({エ行}[
+
+	pe|ye|re|he|be|
+	se|te|ke|ne|we|
+	ze|de|ge|me|
+	]
+
+	({オ行}[
+
+	po|yo|ro|ho|bo|
+	so|to|ko|no|wo|
+	zo|do|go|mo|
+	]
+*/
+
+/* 子音同士を打鍵 */
+	/* 上段 */
+		{上段左手小指}[
+
+		  |you|yuu|  |  |
+		  |   |   |  |  |
+		  |   |   |  |  |
+		]
+
+		{上段左手薬指}[
+
+		  |  |you|yuu|  |
+		  |  |   |   |  |
+		  |  |   |   |  |
+		]
+
+		{上段左手中指}[
+
+		  |yuu|  |you|  |
+		  |   |  |   |  |
+		  |   |  |   |  |
+		]
+
+		{上段左手人差し指}[
+
+		  |yuu|you|  |  |
+		  |   |   |  |  |
+		  |   |   |  |  |
+		]
+
+	/* 中段 */
+		{中段左手小指}[
+
+		  |   |   |  |  |
+		  |you|yuu|  |  |
+		  |   |   |  |  |
+		]
+
+		{中段左手薬指}[
+
+		  |  |   |   |  |
+		  |  |you|yuu|  |
+		  |  |   |   |  |
+		]
+
+		{中段左手中指}[
+
+		  |   |  |   |  |
+		  |yuu|  |you|  |
+		  |   |  |   |  |
+		]
+
+		{中段左手人差し指}[
+
+		  |   |   |  |  |
+		  |yuu|you|  |  |
+		  |   |   |  |  |
+		]
+
+	/* 下段 */
+		{下段左手小指}[
+
+		  |   |   |  |  |
+		  |   |   |  |  |
+		  |you|yuu|  |  |
+		]
+
+		{下段左手薬指}[
+
+		  |  |   |   |  |
+		  |  |   |   |  |
+		  |  |you|yuu|  |
+		]
+
+		{下段左手中指}[
+
+		  |   |  |   |  |
+		  |   |  |   |  |
+		  |yuu|  |you|  |
+		]
+
+		{下段左手人差し指}[
+
+		  |   |   |  |  |
+		  |   |   |  |  |
+		  |yuu|you|  |  |
+		]
+
+	/* 頻出単語 */
+		{k}[
+
+		  |  |ara|  |  |
+		  |  |   |  |  |
+		  |  |oto|  |  |
+		]
+
+		{t}[
+
+		  |ta|  |  |  |
+		  |  |  |  |  |
+		  |te|  |  |  |
+		]
+
+
+/* 同時に打鍵 */
+	({ア行}[
+
+	pa|ya|ra|ha|ba|
+	sa|ta|ka|na|wa|
+	za|da|ga|ma|
+	]
+
+	({イ行}[
+
+	pi|yi|ri|hi|bi|
+	si|ti|ki|ni|wi|
+	zi|di|gi|mi|
+	]
+
+	({ウ行}[
+
+	pu|yu|ru|hu|bu|
+	su|tu|ku|nu|wu|
+	zu|du|gu|mu|
+	]
+
+	({エ行}[
+
+	pe|ye|re|he|be|
+	se|te|ke|ne|we|
+	ze|de|ge|me|
+	]
+
+	({オ行}[
+
+	po|yo|ro|ho|bo|
+	so|to|ko|no|wo|
+	zo|do|go|mo|
+	]
+
+/* 二重母音(連母音)拡張 */
+	({ア行}{イ行}[
+
+	pai|yai|rai|hai|bai|
+	sai|tai|kai|nai|wai|
+	zai|dai|gai|mai|   |
+	]
+
+	({ウ行}{イ行}[
+
+	pui|yui|rui|hui|bui|
+	sui|tui|kui|nui|wui|
+	zui|dui|gui|mui|   |
+	]
+
+	({エ行}{イ行}[
+
+	pei|yei|rei|hei|bei|
+	sei|tei|kei|nei|wei|
+	zei|dei|gei|mei|   |
+	]
+
+	({オ行}{イ行}[
+
+	poi|yoi|roi|hoi|boi|
+	soi|toi|koi|noi|woi|
+	zoi|doi|goi|moi|   |
+	]
+
+	({オ行}{ウ行}[
+
+	pou|you|rou|hou|bou|
+	sou|tou|kou|nou|wou|
+	zou|dou|gou|mou|   |
+	]
+
+/* 撥音拡張 */
+	({ア行}{★}[
+
+	paん|yaん|raん|haん|baん|
+	saん|taん|kaん|naん|waん|
+	zaん|daん|gaん|maん|    |
+	]
+
+	({イ行}{★}[
+
+	piん|yiん|riん|hiん|biん|
+	siん|tiん|kiん|niん|wiん|
+	ziん|diん|giん|miん|    |
+	]
+
+	({ウ行}{★}[
+
+	puん|yuん|ruん|huん|buん|
+	suん|tuん|kuん|nuん|wuん|
+	zuん|duん|guん|muん|    |
+	]
+
+	({エ行}{★}[
+
+	peん|yeん|reん|heん|beん|
+	seん|teん|keん|neん|weん|
+	zeん|deん|geん|meん|    |
+	]
+
+	({オ行}{★}[
+
+	poん|yoん|roん|hoん|boん|
+	soん|toん|koん|noん|woん|
+	zoん|doん|goん|moん|    |
+	]
+
+/* つちくき拡張 */
+	/* {中段く} */
+		({ア行}{中段く}[
+
+		paく|yaく|raく|haく|baく|
+		saく|taく|kaく|naく|waく|
+		zaく|daく|gaく|maく|    |
+		]
+
+	/* {上段ち} */
+		({イ行}{上段ち}[
+
+		piち|yiち|riち|hiち|biち|
+		siち|tiち|kiち|niち|wiち|
+		ziち|diち|giち|miち|    |
+		]
+
+		({ウ行}{上段ち}[
+
+		puち|yuち|ruち|huち|buち|
+		suち|tuち|kuち|nuち|wuち|
+		zuち|duち|guち|muち|    |
+		]
+
+		({エ行}{上段ち}[
+
+		peち|yeち|reち|heち|beち|
+		seち|teち|keち|neち|weち|
+		zeち|deち|geち|meち|    |
+		]
+
+		({オ行}{上段ち}[
+
+		poち|yoち|roち|hoち|boち|
+		soち|toち|koち|noち|woち|
+		zoち|doち|goち|moち|    |
+		]
+
+	/* {上段き} */
+		({イ行}{上段き}[
+
+		piき|yiき|riき|hiき|biき|
+		siき|tiき|kiき|niき|wiき|
+		ziき|diき|giき|miき|    |
+		]
+
+		({ウ行}{上段き}[
+
+		puき|yuき|ruき|huき|buき|
+		suき|tuき|kuき|nuき|wuき|
+		zuき|duき|guき|muき|    |
+		]
+
+		({エ行}{上段き}[
+
+		peき|yeき|reき|heき|beき|
+		seき|teき|keき|neき|weき|
+		zeき|deき|geき|meき|    |
+		]
+
+		({オ行}{上段き}[
+
+		poき|yoき|roき|hoき|boき|
+		soき|toき|koき|noき|woき|
+		zoき|doき|goき|moき|    |
+		]
+
+	/* {中段つ} */
+		({イ行}{中段つ}[
+
+		piつ|yiつ|riつ|hiつ|biつ|
+		siつ|tiつ|kiつ|niつ|wiつ|
+		ziつ|diつ|giつ|miつ|    |
+		]
+
+		({ウ行}{中段つ}[
+
+		puつ|yuつ|ruつ|huつ|buつ|
+		suつ|tuつ|kuつ|nuつ|wuつ|
+		zuつ|duつ|guつ|muつ|    |
+		]
+
+		({エ行}{中段つ}[
+
+		peつ|yeつ|reつ|heつ|beつ|
+		seつ|teつ|keつ|neつ|weつ|
+		zeつ|deつ|geつ|meつ|    |
+		]
+
+		({オ行}{中段つ}[
+
+		poつ|yoつ|roつ|hoつ|boつ|
+		soつ|toつ|koつ|noつ|woつ|
+		zoつ|doつ|goつ|moつ|    |
+		]
+
+	/* {下段く} */
+		({イ行}{下段く}[
+
+		piく|yiく|riく|hiく|biく|
+		siく|tiく|kiく|niく|wiく|
+		ziく|diく|giく|miく|    |
+		]
+
+		({ウ行}{下段く}[
+
+		puく|yuく|ruく|huく|buく|
+		suく|tuく|kuく|nuく|wuく|
+		zuく|duく|guく|muく|    |
+		]
+
+		({エ行}{下段く}[
+
+		peく|yeく|reく|heく|beく|
+		seく|teく|keく|neく|weく|
+		zeく|deく|geく|meく|    |
+		]
+
+		({オ行}{下段く}[
+
+		poく|yoく|roく|hoく|boく|
+		soく|toく|koく|noく|woく|
+		zoく|doく|goく|moく|    |
+		]
+
+/* ★拡張 */
+
+	({★}[
+
+	 | | |  |ゃ|～|を|  | | |
+	 | | |っ|ゅ|ー|  |  | | |
+	 | | |、|ょ|ん|  |。| | |
+	]
+
+
+/* 特殊拡張 */
+
+	({ア行}{ウ行}{オ行}[
+
+	{PgDn}|{Up}  |{PgUp}|
+	{<-}  |{Down}|{->}  |
+
+	]
+
+	({ア行}{イ行}{オ行}[
+
+
+	{Delete}|{Enter}|{BackSpace}|
+
+	]

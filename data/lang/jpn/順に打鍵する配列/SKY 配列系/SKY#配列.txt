@@ -1,0 +1,47 @@
+順に打鍵する配列
+
+/*
+ * SKY♯配列について
+ * http://homepage2.nifty.com/Khwarizmi/type/skysharp.html
+ */
+
+-option-input[
+    {w} | -11
+    {r} | -12
+    {m} | -13
+    {h} | -14
+
+    {n} | -1E
+    {t} | -1F
+    {s} | -20
+    {k} | -21
+    {y} | -22
+
+    {p} | -2C
+    {d} | -2D
+    {z} | -2E
+    {g} | -2F
+    {b} | -30
+
+
+	{中指シフト} | {w}{s}, {r}{s}, {m}{s}, {h}{s}
+	{中指シフト} | {中指シフト}, {n}{s}, {t}{s}, {s}{s}, {k}{s}, {y}{s}
+	{中指シフト} | {中指シフト}, {p}{s}, {d}{s}, {z}{s}, {g}{s}, {b}{s}
+]
+
+
+
+[
+
+、|w|r|m|h|uu|ai|ou|。|ei|
+n |t|s|k|y|u |a |o |i |e |ー|
+p |d|z|g|b|un|an|on|in|en|
+]
+
+{中指シフト}[
+
+     |     | |     |     |yuu|yai|you|っ |yei|
+{BS}f|{BS}v| |{BS}x|{BS}y|yu |ya |yo |yi |ye |ん|
+     |     | |     |     |yun|yan|yon|yin|yen|
+]
+

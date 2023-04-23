@@ -1,0 +1,13 @@
+同時に打鍵する配列
+
+/*
+ * キーボードのキー配列（各種）
+ * http://hp.vector.co.jp/authors/VA011700/moji/keyboard.htm
+ */
+
+[
+1 |2 |3|4|5|6|7|8|9|0|-|{^}|\|
+x |- |q|;|f|j|m|r|w|p|z|「  |
+o |e |a|i|u|g|h|t|s|n|:|」  |
+、|。|v|y|k|d|k|l|b|?|@|
+]

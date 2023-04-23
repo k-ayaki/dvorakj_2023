@@ -1,0 +1,142 @@
+#+TITLE: DvorakJ README
+#+AUTHOR: blechmusik
+#+EMAIL: blechmusik@gmail.com
+#+LANGUAGE: ja
+#+HTML_DOCTYPE: html5
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./bootstrap3/css/bootstrap.min.css">
+#+HTML_HEAD: <script type="text/javascript" src="./js/jquery-latest.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="./bootstrap3/js/bootstrap.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="./js/dvorakj-doc.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="./js/generate_TOC.js"></script>
+#+OPTIONS: toc:nil num:nil author:nil creator:nil html-style:nil timestamp:nil
+
+# org-mode: 「アンダースコアで下付き」を無効にする - ライ麦畑で、つか、前見て
+# http://d.hatena.ne.jp/sonota88/20111204/1322974507
+#+OPTIONS: ^:{}
+
+# Include files - The Org Manual
+# http://orgmode.org/manual/Include-files.html#Include-files
+#+INCLUDE: "../data/version.ini" :lines "6-"
+
+# ----------------------------------------------------------------------
+
+# write current dvorakj version to ini file.
+# then, export this readme.org to html and text (utf-8)
+# (progn (write-dvorakj-version "../data/version.ini") (org-export-as-html-and-ascii-with-bom))
+
+# ----------------------------------------------------------------------
+
+
+* ソフトウェアの概要
+
+　DvorakJ はキーボード配列を変更するフリーウェアです。
+レジストリのキーマップや IME のローマ字かな変換表を編集せずにキーボード配列を変更します。
+文字キーにくわえてテンキーやファンクションキーの機能も変更できます。
+USB メモリでこのソフトウェアを持ち運べば好みのキーボード配列の設定をどこでも使用することが可能です。
+
+　DvorakJ では直接入力用と日本語入力用のキーボード配列を個別に設定します。
+直接入力用配列についてはいわゆる英語配列[fn:5]やDvorak 配列[fn:6]を使用できます。
+日本語入力用配列は、[[http://hp.vector.co.jp/authors/VA002116/azik/azikindx.htm][AZIK]] のようにキーを順に打鍵する配列と、[[http://nicola.sunicom.co.jp/info2.html][NICOLA 配列]]や[[http://kouy.exblog.jp/13627994/][新下駄配列]] のようにキーを同時に打鍵する配列を使用できます。
+さらに、直接入力と日本語入力の両方ともテキスト形式の設定ファイルを編集することで、利用者が独自に作成したキーボード配列を使用できます。
+
+
+　DvorakJ はキーボード配列を変更するソフトウェアにとどまらず、各種入力をより容易にするソフトウェアでもあります。
+ここでは DvorakJ に実装している機能を三つ紹介します。
+1. [Space] を押しながら [文字] を押すと [Shift] と [文字] を押したことにする、いわゆる [[http://hp.vector.co.jp/authors/VA002116/sands/][SandS (Space and Shift)]] 機能
+2. マウスカーソルをくるくる回すとスクロールする機能
+3. 定型文を出力したりカーソルを動かす、独自のショートカット機能
+
+　ただし、DvorakJ は [Caps Lock] や [ひらがな] を [Ctrl] として動作させられません。
+OS の仕様上レジストリやドライバを変更しない限り、そのようには動作を変更できないのです[fn:8]。
+もっとも、これらのキーを [Back Space] へと変更したり直接入力に切り替えるキーにすることならできます。
+
+　DvorakJ のソースコードは NYSL の条件で公開しています。
+
+
+
+
+* ソフトウェアを公開しているウェブページ
+
+以下のウェブページで最新版と過去の版を公開しています
+
+- [[http://blechmusik.xii.jp/dvorakj/][DvorakJ: a portable freeware remapping your keyboard layout]]
+
+Vector でもソフトウェアを公開しています（ただし最新版ではない可能性があります）
+
+- [[http://www.vector.co.jp/soft/dl/winnt/util/se480857.html][Vector：DvorakJ (WindowsNT/2000/XP/Vista / ユーティリティ) - ソフトのダウンロード]]
+
+* 動作を確認している OS
+
+| OS                                    |        |
+|---------------------------------------+--------|
+| Windows Vista     Service Pack 2      | 32 bit |
+| Windows 7 Home Premium Service Pack 1 | 64 bit |
+| Windows 8.1 Pro                       | 64 bit |
+
+* ソフトウェアのライセンス
+
+| 対象         | ライセンス                                             |
+|--------------+--------------------------------------------------------|
+| ソースコード | [[http://www.kmonos.net/nysl/]["NYSL Version 0.9982"]][fn:1]                            |
+| アイコン[fn:7]     | [[http://creativecommons.org/licenses/by/3.0/us/deed.en][Creative Commons - Attribution 3.0 United States]][fn:2] |
+| 上記以外     | [[http://www.gnu.org/licenses/gpl-2.0.html][GNU General Public License v2.0]][fn:3]                  |
+
+* 新しい版への移行方法
+
+
+　新しい版の導入方法は2通りあります。
+1. プログラムによって新しい版を自動的に導入する方法です。メニューの「ヘルプ」の「DvorakJ の更新情報を取得する」を選択すればすぐに、新しい版が公開されていれば自動的に導入します[fn:4]。設定項目の「その他」の「起動時にソフトウェアの更新情報を取得する」を有効にすればソフトウェアの次回起動時に自動的に導入します[fn:4]。
+2. 新しい版を手動で導入する方法です。ウェブサイトから最新のファイルをダウンロードし、展開してすべて上書きしてください。
+
+　新しい版を導入した結果正常に動作しなくなったときには、別フォルダに新しい版のファイルを展開してください。
+
+
+* ソフトウェアの削除方法
+
+　関連するファイルをすべて削除してください。
+具体的には zip ファイルの展開後に現れるフォルダを削除してください。
+
+
+* ソフトウェアのヘルプページ
+
+- http://blechmusik.xii.jp/dvorakj/
+
+
+
+* 連絡先
+
+　ソフトウェアの不具合の報告や要望等に関して、以下のいずれかの連絡先にお寄せ下さい。
+
+| 日記    | http://blechmusik.hatenablog.jp/ |
+| twitter | https://twitter.com/blechmusik   |
+| メール  | blechmusik@gmail.com             |
+
+
+* 更新履歴
+
+
+[[./history.html][更新履歴のページ]] を参照してください。
+
+
+* Footnotes
+
+[fn:1] 煮るなり焼くなりご自由にどうぞ。
+
+[fn:2] DvorakJ が使用しているアイコンのライセンス、すなわち [[http://www.fatcow.com/][FatCow.com]] が提供する [[http://www.fatcow.com/free-icons][2400 Free "Farm-Fresh Web Icons"]] のライセンスを適用します。
+
+[fn:3] DvorakJ が使用しているアプリケーション [[http://l.autohotkey.net/][AutoHotkey_L]] が採用しているライセンスを適用します。
+
+[fn:4] 以前は DvorakJ_Updater.exe 単体を起動しない限り、最新のプログラムを自動的には導入しませんでした。現在では、新しい版を確認する処理であればどれでも、最新のプログラムを自動的に導入します。
+
+[fn:5]  [[http://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%BC%E9%85%8D%E5%88%97#101.E3.82.AD.E3.83.BC.E3.83.9C.E3.83.BC.E3.83.89]["キー配列 - Wikipedia （101キーボード）"]]。ASCII 配列と呼ばれることもあります。
+
+[fn:6] [[http://ja.wikipedia.org/wiki/Dvorak%E9%85%8D%E5%88%97]["Dvorak配列 - Wikipedia"]]
+
+[fn:8] たとえば [[http://technet.microsoft.com/ja-jp/sysinternals/bb897578][Ctrl2cap]] を使用すれば動作をそのように変更できます。 [[http://www.atmarkit.co.jp/fwin2k/win2ktips/1182ctrl2cap/ctrl2cap.html][Ctrl2Capツールで［Ctrl］と［CapsLock］キーを入れ替える － ＠IT]] を参照して下さい。
+
+[fn:7] [[http://www.fatcow.com/free-icons][3800 Free "Farm-Fresh Web Icons" by FatCow Web Hosting]]
+
+
+
+  
+

@@ -1,0 +1,27 @@
+/*
+ * キーリスト (AutoHotkeyJp)
+ * http://sites.google.com/site/autohotkeyjp/reference/KeyList
+ */
+
+/*
+ * Deininger, R. L. (1960). Human factors engineering studies on the design and use of pushbutton telephone sets. Bell System Technical Journal, 39, 995---1012. 
+ * http://www.vcalc.net/touchtone_hf.pdf
+ */
+
+-NumLock[
+           |{NumpadDiv}|{NumpadMult} |
+{NumpadSub}|{NumpadAdd}|{NumpadEnter}|
+{Numpad1}  |{Numpad2}  |{Numpad3}    |
+{Numpad4}  |{Numpad5}  |{Numpad6}    |
+{Numpad7}  |{Numpad8}  |{Numpad9}    |
+{Numpad0}              |{NumpadDot}  |
+]
+
+[
+            |{NumpadDiv} |{NumpadMult} |
+{NumpadSub} |{NumpadAdd} |{NumpadEnter}|
+{NumpadHome}|{NumpadUp}  |{NumpadPgUp} |
+{NumpadLeft}|            |{NumpadRight}|
+{NumpadEnd} |{NumpadDown}|{NumpadPgDn} |
+{NumpadIns}              |{NumpadDel}  |
+]
